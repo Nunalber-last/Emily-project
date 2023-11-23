@@ -61,7 +61,7 @@ function alterarContexto(contexto){
     banner.setAttribute('src', `./imagens/${contexto}.png`);
     switch (contexto) {
         case "foco":
-            titulo.innerHTML = `Emily! Utilize o intervalo para estudar.<br>
+            titulo.innerHTML = `Emily! Utilize o temporizador para estudar.<br>
             <strong class="app__title-strong"> Mergulhe no que importa.</strong>`
             break;
         case "descanso-curto":
